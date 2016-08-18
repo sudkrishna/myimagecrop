@@ -1,0 +1,13 @@
+use myimagecrop\UploadCropImage;
+<?php
+                ActiveForm::begin(['action'=>'index.php?r=site/uploadimage','method'=>'POST','options'=>['enctype'=>'multipart/form-data']]);
+
+        ?>
+        
+<?=   UploadCropImage::widget() ?>
+
+        
+<?php
+
+ActiveForm::end();
+?>
