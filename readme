@@ -1,7 +1,8 @@
-   Enter follwoing code in controller action for aftersubmit of form
-   
-   
-   $valid_exts = array('jpeg', 'jpg', 'png', 'gif');
+public function actionUploadimage()
+    {//i
+
+        
+        $valid_exts = array('jpeg', 'jpg', 'png', 'gif');
 $max_file_size = 200 * 1024; #200kb
 $nw = $nh = 200; # image with # height
 
@@ -37,10 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	}
 } else {
     return 'bad request!';
-    
-    
-    
-    
-    
-    
-    
+}
+        
+        
+    }//i end of actionUploadimage()
