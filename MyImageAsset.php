@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 
 class MyImageAsset extends AssetBundle
 {
-public $sourcePath = '@vendor/myimagecrop/assets';
+public $sourcePath = '@vendor/sudkrishna/myimagecrop/assets';
 
 	public $depends = [
 		'yii\web\YiiAsset',
