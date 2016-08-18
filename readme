@@ -1,3 +1,8 @@
+install 
+require 
+      -    sudkrishna/myimagecrop":"dev-master"
+
+
 public function actionUploadimage()
     {//i
 
